@@ -3,12 +3,12 @@
     class="bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-100 px-6"
   >
     <header
-      class="pb-12 pt-24 max-w-xs mx-auto sm:max-w-lg md:max-w-2xl lg:max-w-4xl"
+      class="pb-12 pt-12 max-w-xs mx-auto sm:max-w-lg md:max-w-2xl lg:max-w-4xl lg:pt-32"
     >
-      <h1 class="text-5xl md:text-7xl md:tracking-tight">
+      <h1 class="text-5xl md:text-7xl md:tracking-tight lg:text-8xl">
         Lorem ipsum dolor, sit amet.
       </h1>
-      <p class="mt-8 text-xl tracking-tight md:text-2xl">
+      <p class="mt-8 text-xl tracking-tight md:text-2xl lg:text-3xl">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         Cumque minima voluptatum dicta sequi distinctio sit assumenda
         esse voluptatem iste eligendi neque mollitia aut, expedita

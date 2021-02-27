@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-gray-200 sticky dark:bg-gray-800 text-gray-800 dark:text-gray-100 w-full px-6 py-8 flex items-center justify-between top-0 z-50 lg:py-9 lg:justify-start lg:px-12 xl:px-16 xl:py-6"
+    class="bg-gray-200 fixed top-0 dark:bg-gray-800 text-gray-800 dark:text-gray-100 w-full px-6 py-8 flex items-center justify-between z-50 lg:sticky lg:py-9 lg:justify-start lg:px-12 xl:px-16 xl:py-8 xl:h-24"
   >
     <div class="flex">
       <app-color-icon class="" />
@@ -60,6 +60,9 @@ export default {
     },
     isCartEmpty() {
       return this.$store.getters.getCartAmount === 0;
+    },
+    isNavModalOpen() {
+      return this.$store.getters.isNavModalOpen;
     },
   },
   methods: {

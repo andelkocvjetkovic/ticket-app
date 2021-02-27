@@ -5,7 +5,9 @@
     <header
       class="space-y-12 sm:max-w-lg mx-auto md:max-w-xl lg:max-w-3xl"
     >
-      <h1 class="text-4xl font-bold md:text-5xl mt-12 md:mt-16">
+      <h1
+        class="text-4xl font-bold md:text-5xl pt-12 md:pt-16 lg:text-5xl xl:text-6xl"
+      >
         {{ event.title }}
       </h1>
       <div
@@ -19,11 +21,11 @@
         />
       </div>
       <app-button-black
-        class="block w-1/2 mx-auto px-6 py-2 md:px-8 md:text-lg lg:text-xl lg:py-3"
+        class="block w-1/2 mx-auto px-6 py-2 md:px-8 md:text-lg lg:text-xl lg:font-semibold lg:py-4 lg:px-10"
         @click="addToCart"
       />
       <p>
-        <span class="text-lg md:text-xl lg:text-2xl">
+        <span class="text-lg md:text-xl lg:text-2xl text-app-orange">
           <app-link-speaker :speaker="event.speakers" />
         </span>
       </p>

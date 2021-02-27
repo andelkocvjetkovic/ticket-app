@@ -37,7 +37,7 @@
       >
         <ul
           v-if="isUserMenuOpen"
-          class="absolute top-10 right-0 lg:left-0 rounded-md bg-gray-300 dark:bg-gray-900 text-base py-4 px-8 space-y-2 w-64 lg:w-72"
+          class="absolute top-10 right-0 lg:left-0 rounded-md bg-gray-300 dark:bg-gray-900 text-base py-4 px-8 space-y-2 w-64 lg:w-80 lg:text-xl lg:top-12"
           role="menu"
           aria-labelledby="menudropdown"
         >

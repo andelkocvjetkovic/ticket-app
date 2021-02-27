@@ -1,7 +1,7 @@
 <template>
   <div>
     <the-app-header />
-    <Nuxt />
+    <Nuxt class="pt-24 lg:pt-0" />
     <app-footer />
     <client-only>
       <portal-target name="destination"></portal-target>
@@ -19,13 +19,14 @@ export default {
   watch: {
     isModalOpen(newValue) {
       if (newValue) {
-        const scrollY = window.screenY;
+        const scrollY = window.scrollY;
         document.body.style.position = "fixed";
         document.body.style.top = `-${scrollY}px`;
       } else {
         const scrollY = document.body.style.top;
         document.body.style.position = "";
         document.body.style.top = "";
+        console.log(scrollY);
         window.scrollTo(0, parseInt(scrollY || "0") * -1);
       }
     },

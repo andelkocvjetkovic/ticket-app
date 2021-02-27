@@ -6,7 +6,7 @@
   >
     <article
       ref="articleElement"
-      class="w-2/3 h-1/2 bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-50 rounded-md sm:max-w-sm mx-auto"
+      class="w-2/3 h-1/2 mt-32 lg:mt-0 bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-50 rounded-md sm:max-w-sm mx-auto"
     >
       <section
         class="px-4 py-8 relative h-full w-full lg:px-8"
