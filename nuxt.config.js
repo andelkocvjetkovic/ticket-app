@@ -103,7 +103,9 @@ export default {
       plugins: ["@babel/plugin-proposal-optional-chaining"],
     },
   },
-  generate: {},
+  generate: {
+    exclude: ["/dashboard"],
+  },
   pageTransition: {
     name: "page",
     mode: "out-in",
