@@ -32,7 +32,15 @@ collections:
           widget: "string",
         }
       - { label: "Location", name: "location", widget: "string" }
-      - { label: "Speakers", name: "speakers", widget: "string" }
+      - {
+          label: "Speakers",
+          name: "speakers",
+          widget: "relation",
+          collection: "speakers",
+          search_fields: ["name"],
+          value_fields: ["name"],
+          display_fields: ["name", "company"],
+        }
       - { label: "Price", name: "price", widget: "number" }
       - { labe: "Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
