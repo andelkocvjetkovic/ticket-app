@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: main
 
 media_folder: static/events
 public_folder: /img
@@ -16,7 +16,16 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Publish Date start",
+          name: "dateStart",
+          widget: "datetime",
+        }
+      - {
+          label: "Publish Date start",
+          name: "dateEnd",
+          widget: "datetime",
+        }
       - {
           label: "Description",
           name: "description",
