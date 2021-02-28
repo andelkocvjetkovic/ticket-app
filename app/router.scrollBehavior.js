@@ -1,9 +1,7 @@
 export default function (to, from, savedPosition) {
   if (savedPosition) {
     return new Promise((resolve) => {
-      setTimeout(() => {
-        resolve({ ...savedPosition, behavior: "smooth" });
-      }, 500);
+      resolve(savedPosition, 400);
     });
   } else {
     return new Promise((resolve) => {

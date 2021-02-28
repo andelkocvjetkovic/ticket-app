@@ -60,7 +60,7 @@
       <figcaption
         class="mt-6 sm:mt-10 md:order-first md:mt-0 md:w-1/2 md:pr-5 md:flex md:flex-col xl:flex-grow"
       >
-        <h3 class="text-lg md:mt-8 text-app-orange">
+        <h3 class="text-lg md:mt-8">
           <app-link-speaker
             class="underline"
             :speaker="event.speakers"
@@ -72,7 +72,7 @@
           {{ event.description }}
         </p>
         <nuxt-link
-          class="block underline mt-6 sm:text-lg md:text-2xl xl:text-3xl text-app-orange"
+          class="block underline mt-6 sm:text-lg md:text-2xl xl:text-3xl"
           :to="`events/${event.slug}`"
           >Read more <span>&#8594;</span></nuxt-link
         >

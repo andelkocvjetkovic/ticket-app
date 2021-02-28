@@ -46,7 +46,7 @@
         <div v-if="isLogin" class="flex items-center">
           <input
             id="remember_me"
-            v-model.lazy="form.isRemeber"
+            v-model="form.isRemeber"
             name="remember_me"
             type="checkbox"
             class="h-4 w-4 text-gray-400 focus:ring-gray-300 border-gray-300 rounded"

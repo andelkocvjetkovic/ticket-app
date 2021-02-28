@@ -30,7 +30,7 @@
       </p>
     </header>
     <article
-      class="max-w-sm mx-auto py-12 sm:max-w-lg md:max-w-full md:flex md:flex-wrap md:justify-between lg:max-w-4xl xl:max-w-6xl"
+      class="max-w-sm mx-auto py-12 sm:max-w-lg md:max-w-full md:flex md:flex-wrap md:justify-between lg:max-w-4xl xl:max-w-6xl xl:py-32"
     >
       <section
         v-for="(speaker, index) in speakers"
@@ -100,11 +100,75 @@ export default {
         });
       }
     });
-    return {};
   },
   async asyncData({ $content }) {
     var speakers = await $content("speakers").fetch();
     return { speakers };
+  },
+  head() {
+    return {
+      title: "Speakers",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: `Our speakers: ${this.speakerNames}`,
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "Vera speakers",
+        },
+        {
+          hid: "twitter:description",
+          name: "twitter:description",
+          content: `Our speakers: ${this.speakerNames}`,
+        },
+        {
+          hid: "twitter:image",
+          name: "twitter:image",
+          content:
+            "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1051&q=80",
+        },
+        {
+          hid: "twitter:image:alt",
+          name: "twitter:image:alt",
+          content: "Vera speakers",
+        },
+        {
+          hid: "og:title",
+          property: "og:title",
+          content: "Vera speakers",
+        },
+        {
+          hid: "og:description",
+          property: "og:description",
+          content: `Our speakers: ${this.speakerNames}`,
+        },
+        {
+          hid: "og:image",
+          property: "og:image",
+          content:
+            "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1051&q=80",
+        },
+        {
+          hid: "og:image:secure_url",
+          property: "og:image:secure_url",
+          content:
+            "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1051&q=80",
+        },
+        {
+          hid: "og:image:alt",
+          property: "og:image:alt",
+          content: "Vera speakers",
+        },
+      ],
+    };
+  },
+  computed: {
+    speakerNames() {
+      return this.speakers.map((s) => s.name).join();
+    },
   },
 };
 </script>

@@ -3,7 +3,7 @@
     class="py-12 px-6 bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-50"
   >
     <header
-      class="space-y-12 sm:max-w-lg mx-auto md:max-w-xl lg:max-w-3xl"
+      class="space-y-12 sm:max-w-lg mx-auto md:max-w-xl lg:max-w-3xl lg:pt-8 lg:space-y-16"
     >
       <h1
         class="text-4xl font-bold md:text-5xl pt-12 md:pt-16 lg:text-5xl xl:text-6xl"
@@ -46,6 +46,63 @@ export default {
         error({ statusCode: 404, message: "Page not found" });
       });
     return { event };
+  },
+  head() {
+    return {
+      title: this.event.title,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.event.description,
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: this.event.title,
+        },
+        {
+          hid: "twitter:description",
+          name: "twitter:description",
+          content: this.event.description,
+        },
+        {
+          hid: "twitter:image",
+          name: "twitter:image",
+          content: this.event.image,
+        },
+        {
+          hid: "twitter:image:alt",
+          name: "twitter:image:alt",
+          content: this.event.title,
+        },
+        {
+          hid: "og:title",
+          property: "og:title",
+          content: this.event.title,
+        },
+        {
+          hid: "og:description",
+          property: "og:description",
+          content: this.event.description,
+        },
+        {
+          hid: "og:image",
+          property: "og:image",
+          content: this.event.image,
+        },
+        {
+          hid: "og:image:secure_url",
+          property: "og:image:secure_url",
+          content: this.event.image,
+        },
+        {
+          hid: "og:image:alt",
+          property: "og:image:alt",
+          content: this.event.title,
+        },
+      ],
+    };
   },
   computed: {
     speaker() {

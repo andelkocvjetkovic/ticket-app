@@ -33,6 +33,18 @@ export default {
       error: "",
     };
   },
+  head() {
+    return {
+      title: "Sign up",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Sign up to our website for free",
+        },
+      ],
+    };
+  },
   computed: {
     isError() {
       return this.error.length > 0;

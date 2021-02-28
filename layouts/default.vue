@@ -26,7 +26,6 @@ export default {
         const scrollY = document.body.style.top;
         document.body.style.position = "";
         document.body.style.top = "";
-        console.log(scrollY);
         window.scrollTo(0, parseInt(scrollY || "0") * -1);
       }
     },

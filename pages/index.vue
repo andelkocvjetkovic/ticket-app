@@ -26,7 +26,7 @@
         v-for="event in events"
         :key="event.slug"
         :event="event"
-        class="mt-24"
+        class="py-24"
       >
       </app-event-info>
     </article>
@@ -42,6 +42,68 @@ export default {
       .fetch();
     return { events };
   },
-  methods: {},
+  head() {
+    return {
+      title: "Home",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Vera is is a new web platform for learning web dev",
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: "Vera",
+        },
+        {
+          hid: "twitter:description",
+          name: "twitter:description",
+          content:
+            "Explore upcoming events read about it and see our spekers",
+        },
+        {
+          hid: "twitter:image",
+          name: "twitter:image",
+          content:
+            "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        },
+        {
+          hid: "twitter:image:alt",
+          name: "twitter:image:alt",
+          content: "Vera",
+        },
+        {
+          hid: "og:title",
+          property: "og:title",
+          content: "Vera",
+        },
+        {
+          hid: "og:description",
+          property: "og:description",
+          content:
+            "Explore upcoming events read about it and see our spekers",
+        },
+        {
+          hid: "og:image",
+          property: "og:image",
+          content:
+            "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        },
+        {
+          hid: "og:image:secure_url",
+          property: "og:image:secure_url",
+          content:
+            "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        },
+        {
+          hid: "og:image:alt",
+          property: "og:image:alt",
+          content: "Vera",
+        },
+      ],
+    };
+  },
 };
 </script>

@@ -29,19 +29,18 @@ export default {
       });
       tl.to(el, {
         opacity: 1,
-        duration: 4,
-      });
-      tl.fromTo(
+        duration: 0.3,
+      }).fromTo(
         el.children[0].children,
         {
           opacity: 0,
-          y: 30,
+          y: 15,
         },
         {
           y: 0,
           opacity: 1,
-          duration: 0.3,
-          stagger: 0.1,
+          duration: 0.2,
+          stagger: 0.05,
           onComplete: () => {
             this.$store.commit("toggleNavModal", this.isOpen);
             done();
@@ -55,10 +54,10 @@ export default {
         defaults: { ease: "circ.in" },
       });
       tl.to(el.children[0].children, {
-        y: 30,
+        y: 15,
         opacity: 0,
-        duration: 0.3,
-        stagger: 0.1,
+        duration: 0.2,
+        stagger: 0.05,
       }).to(
         el,
         {
@@ -69,7 +68,7 @@ export default {
             done();
           },
         },
-        "<.2"
+        "<.15"
       );
     },
   },

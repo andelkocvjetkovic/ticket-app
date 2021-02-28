@@ -4,10 +4,10 @@ const useEmulators = false;
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
-  fallback: true,
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "event-app-nuxt",
+    titleTemplate: "Vera %s",
     htmlAttrs: {
       lang: "en",
     },
@@ -20,7 +20,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Buy a ticket for new events",
+        content: "Vera a web platform for web developers",
       },
     ],
     link: [
@@ -90,7 +90,7 @@ export default {
   content: {
     markdown: {
       prism: {
-        theme: "prism-themes/themes/prism-ghcolors.css",
+        theme: "prism-themes/themes/prism-hopscotch.css",
       },
     },
   },
@@ -108,6 +108,7 @@ export default {
     },
   },
   generate: {
+    fallback: true,
     exclude: ["/dashboard"],
   },
   pageTransition: {

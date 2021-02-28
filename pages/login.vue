@@ -2,10 +2,12 @@
   <main
     class="bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-100 px-6 flex flex-col items-stretch justify-start min-h-screen"
   >
-    <section class="mt-12 max-w-sm mx-auto">
-      <h2 class="text-2xl">
+    <section class="mt-12 max-w-sm mx-auto lg:text-center">
+      <h2 class="text-2xl lg:text-4xl">
         Do not have account?
-        <nuxt-link class="underline block" to="/signup"
+        <nuxt-link
+          class="mt-4 underline text-app-orange block sm:text-3xl lg:text-5xl"
+          to="/signup"
           >Sign up for free <span>&#8594;</span></nuxt-link
         >
       </h2>
@@ -17,7 +19,9 @@
       <fieldset
         class="border-t-2 border-gray-400 flex justify-around"
       >
-        <legend class="mx-auto px-4 py-2">Or continue with</legend>
+        <legend class="mx-auto px-4 py-2 lg:text-xl">
+          Or continue with
+        </legend>
         <button
           class="line-through w-20 h-10"
           type="button"
@@ -62,6 +66,18 @@ export default {
     return {
       loader: false,
       error: "",
+    };
+  },
+  head() {
+    return {
+      title: "Log in",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Free login on our website",
+        },
+      ],
     };
   },
   computed: {

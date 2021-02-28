@@ -8,7 +8,7 @@
     >
       <ol class="mt-12">
         <li
-          class="flex justify-between text-center font-semibold text-lg space-x-2 lg:text-xl"
+          class="flex justify-between text-center font-bold text-lg space-x-2 lg:text-xl"
         >
           <span class="w-4/6 text-left">Event</span>
           <span class="w-1/6">Price</span>
@@ -19,10 +19,8 @@
           :key="item.name"
           class="flex justify-between space-y-4 items-baseline space-x-2 lg:text-lg"
         >
-          <span class="w-4/6">{{ item.item }}</span>
-          <span class="w-1/6 text-center text-sm">{{
-            item.price
-          }}</span>
+          <span class="w-4/6 font-semibold">{{ item.item }}</span>
+          <span class="w-1/6 text-center">{{ item.price }}</span>
           <span class="w-1/6 text-center">{{ item.amount }}</span>
         </li>
       </ol>
@@ -69,7 +67,7 @@
                 class="mt-auto text-3xl sm:text-4xl text-app-orange underline"
               >
                 <span v-if="errorMessage">Log in</span>
-                <span v-else-if="userMessage">Dashoard</span>
+                <span v-else-if="userMessage">Dashboard</span>
                 <span v-else>Home</span>
                 <span>&#8594;</span></nuxt-link
               >
@@ -89,6 +87,18 @@ export default {
       isMessage: false,
       errorMessage: "",
       userMessage: "",
+    };
+  },
+  head() {
+    return {
+      title: "Cart",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Buy our tickers",
+        },
+      ],
     };
   },
   computed: {
@@ -153,7 +163,7 @@ export default {
         });
         this.$store.commit("cleanCart");
         this.userMessage =
-          "Your purchases have been successfully sent, thank you for shopping";
+          "Your purchases have been successfully sent. Thank you for shopping";
         this.isMessage = true;
       } catch (e) {
         this.$nuxt.error({

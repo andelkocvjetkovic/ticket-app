@@ -2,7 +2,9 @@
   <main
     class="bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-100 min-h-screen w-full"
   >
-    <article class="pt-6 px-6 relative sm:max-w-lg sm:mx-auto">
+    <article
+      class="pt-6 px-6 relative sm:max-w-lg sm:mx-auto xl:pt-12"
+    >
       <header class="mt-8 sm:mt-12">
         <h1 class="text-center text-2xl">
           Welcome
@@ -84,27 +86,27 @@
         >
       </section>
     </article>
-    <article class="py-12 px-6 sm:max-w-lg sm:mx-auto">
+    <article class="py-12 px-6 sm:max-w-lg sm:mx-auto xl:py-24">
       <h1 class="text-2xl text-center font-semibold lg:text-4xl">
         Your ticket :
       </h1>
       <section class="mt-6">
-        <div class="flex justify-between lg:text-xl">
+        <div class="flex justify-between lg:text-xl font-semibold">
           <span class="w-2/3">Events: </span>
           <span class="w-1/3 text-center">Tickets:</span>
         </div>
-        <div v-for="(order, i) in tickets" :key="i" class="mt-6">
+        <div v-for="(order, i) in tickets" :key="i" class="mt-10">
           <h3>Order: {{ i + 1 }}</h3>
           <p
             v-for="ticket in order.ticket"
             :key="ticket.uuid"
-            class="flex justify-between"
+            class="flex justify-between py-2"
           >
             <span class="w-2/3">{{ ticket.item }}</span>
             <span class="text-center w-1/3">{{ ticket.amount }}</span>
           </p>
           <div
-            class="flex border-t border-app-orange pt-1 lg:border-t-2"
+            class="flex border-t border-app-orange pt-1 lg:border-t-2 font-semibold"
           >
             <span class="w-2/3">Price: </span>
             <span class="w-1/3 text-center">$ {{ order.price }}</span>

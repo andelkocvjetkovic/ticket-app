@@ -1,12 +1,12 @@
 <template>
   <main
     ref="mainElement"
-    class="w-screen h-screen absolute inset-0 bg-transparent flex justify-center items-center z-30"
+    class="w-full h-screen absolute inset-0 bg-transparent flex justify-center items-center z-30"
     @click="hello"
   >
     <article
       ref="articleElement"
-      class="w-2/3 h-1/2 mt-32 lg:mt-0 bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-50 rounded-md sm:max-w-sm mx-auto"
+      class="w-2/3 h-1/2 lg:mt-0 bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-50 rounded-md sm:max-w-sm shadow-2xl"
     >
       <section
         class="px-4 py-8 relative h-full w-full lg:px-8"
@@ -43,12 +43,12 @@
 <script>
 export default {
   inheritAttrs: false,
-  mounted() {
-    this.$store.commit("toggleNavModal", true);
-  },
-  destroyed() {
-    this.$store.commit("toggleNavModal", false);
-  },
+  // mounted() {
+  //   this.$store.commit("toggleNavModal", true);
+  // },
+  // destroyed() {
+  //   this.$store.commit("toggleNavModal", false);
+  // },
   methods: {
     hello(e) {
       if (
