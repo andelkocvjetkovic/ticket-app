@@ -5,7 +5,7 @@ dateEnd: 2020-04-10
 location: online
 speakers: Jessica Loop
 price: 50
-image: events/grid.jpg
+image: /grid.jpg
 uuid: d0dcf16e-3234-4176-a3a2-a84a7bb48ef2
 description: Has no ponderum reprehendunt, te pri omnis veritus, dicant oblique
   usu ad. Eu repudiare interpretaris signiferumque nam. Usu te case tota
