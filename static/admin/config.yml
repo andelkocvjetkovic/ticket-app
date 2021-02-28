@@ -37,8 +37,8 @@ collections:
           name: "speakers",
           widget: "relation",
           collection: "speakers",
-          search_fields: ["name"],
-          value_fields: ["name"],
+          search_fields: "name",
+          value_field: "name",
           display_fields: ["name", "company"],
         }
       - { label: "Price", name: "price", widget: "number" }
