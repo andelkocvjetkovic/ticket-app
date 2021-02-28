@@ -22,6 +22,21 @@ export default {
         name: "description",
         content: "Vera a web platform for web developers",
       },
+      {
+        hid: "twitter:card",
+        name: "twitter:card",
+        content: "summary_large_image",
+      },
+      {
+        hid: "twitter:site",
+        name: "twitter:site",
+        content: "@AndelkoCvjetko1",
+      },
+      {
+        hid: "twitter:url",
+        name: "twitter:url",
+        content: "https://blissful-shaw-ec916f.netlify.app",
+      },
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
