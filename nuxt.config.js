@@ -37,6 +37,17 @@ export default {
         name: "twitter:url",
         content: "https://blissful-shaw-ec916f.netlify.app",
       },
+      {
+        hid: "og:site_name",
+        property: "og:site_name",
+        content: "Vera",
+      },
+      { hid: "og:type", property: "og:type", content: "website" },
+      {
+        hid: "og:url",
+        property: "og:url",
+        content: "https://blissful-shaw-ec916f.netlify.app",
+      },
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
