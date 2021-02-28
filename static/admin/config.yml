@@ -3,7 +3,7 @@ backend:
   branch: main
 
 media_folder: static/events
-public_folder: events
+public_folder: /
 
 collections:
   - name: "all-events"
