@@ -1,7 +1,7 @@
 <template>
   <section class="">
     <header class="py-8 md:flex">
-      <h4
+      <h2
         class="font-semibold italic text-right sm:text-lg md:text-left md:order-last md:ml-auto lg:text-xl xl:text-2xl"
       >
         <span
@@ -11,7 +11,7 @@
         >
         <span>{{ getMonth(event.dateStart) }}</span>
         <span>{{ getYear(event.dateStart) }}</span>
-      </h4>
+      </h2>
       <h2
         class="text-3xl font-semibold sm:text-4xl mt-4 md:text-5xl xl:flex-grow xl:text-6xl"
       >
@@ -25,7 +25,7 @@
     <figure class="mt-4 md:flex md:flex-wrap md:mt-12">
       <svg
         ref="svgElement"
-        role="image"
+        role="img"
         viewBox="0 0 500 400"
         class="rounded-md sm:w-full sm:max-h-64 md:w-1/2 xl:w-2/5 xl:max-h-full"
         preserveAspectRatio="none"

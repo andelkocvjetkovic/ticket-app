@@ -2,7 +2,6 @@
   <button
     type="button"
     class="w-6 h-6 lg:h-8 lg:w-8 focus:outline-none"
-    aria-label="Change theme"
     @click="toogleMod"
   >
     <transition
