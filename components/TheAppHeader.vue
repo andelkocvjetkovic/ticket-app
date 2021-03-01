@@ -3,7 +3,7 @@
     class="bg-gray-200 fixed top-0 dark:bg-gray-800 text-gray-800 dark:text-gray-100 w-full px-6 py-8 flex items-center justify-between z-50 lg:sticky lg:py-9 lg:justify-start lg:px-12 xl:px-16 xl:py-8 xl:h-24"
   >
     <div class="flex">
-      <app-color-icon class="" />
+      <app-color-icon />
       <nuxt-link to="/cart">
         <lazy-app-svg-cart
           v-if="!isCartEmpty"

@@ -5,7 +5,10 @@
     viewBox="0 0 24 24"
     stroke="currentColor"
     class="w-full h-full"
+    role="presentation"
+    aria-labelledby="sun"
   >
+    <title id="sun">Light theme</title>
     <path
       stroke-linecap="round"
       stroke-linejoin="round"

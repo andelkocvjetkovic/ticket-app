@@ -17,11 +17,11 @@
     <article
       class="max-w-sm py-12 mx-auto sm:py-6 o sm:max-w-md md:max-w-2xl lg:max-w-3xl xl:max-w-4xl lg:py-16"
     >
-      <h3
+      <h2
         class="text-4xl text-center mt-10 md:text-5xl lg:text-5xl xl:text-6xl"
       >
         Upcoming events
-      </h3>
+      </h2>
       <app-event-info
         v-for="event in events"
         :key="event.slug"

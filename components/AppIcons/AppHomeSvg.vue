@@ -7,7 +7,10 @@
       y="0"
       viewBox="0 0 694 1050"
       xml:space="preserve"
+      role="presentation"
+      aria-labelledby="bgHome"
     >
+      <title id="bgHome">Code all over the place</title>
       <linearGradient
         id="SVGID_1_"
         gradientUnits="userSpaceOnUse"

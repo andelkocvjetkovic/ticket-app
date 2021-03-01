@@ -6,6 +6,7 @@
     viewBox="0 0 37 9"
     aria-labelledby="navMenu"
     class="stroke-current"
+    role="presentation"
   >
     <title id="navMenu">Menu</title>
     <rect width="37" height="1" />

@@ -3,6 +3,7 @@
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 739.45 769.77"
     aria-labelledby="error"
+    role="presentation"
   >
     <title id="error">Error occured</title>
     <g id="hair">
