@@ -1,58 +1,118 @@
 ---
-uuid: 2d80d9d0-8667-4865-924f-11796deb6dff
-title: JavaScript closure
-dateStart: 2020-05-01
-dateEnd: 2015-05-06
-image: js-closure.jpg
+uuid: 86aef0b1-6e7b-4790-aea3-cc414fa2b17e
+title: JavaScript pattern
+dateStart: 2020-06-02
+dateEnd: 2020-06-05
+image: js-patterns.jpg
 location: online
-description: St Moritz extraordinary international, emerging Scandinavian Zürich smart bureaux. Emerging izakaya impeccable, joy artisanal craftsmanship charming destination Beams flat white boulevard. Bespoke lovely Zürich classic carefully curated first-class Comme des Garçons Sunspel airport sophisticated Fast Lane intricate Baggu St Moritz. Handsome Washlet wardrobe Fast Lane Melbourne, global Singapore hub sleepy.
-speakers: Sarah Map
-price: 60
+description: Melbourne izakaya tote bag, remarkable Tsutaya pintxos intricate St Moritz concierge extraordinary Toto Asia-Pacific Beams uniforms Boeing 787. Sharp carefully curated soft power, the highest quality handsome iconic discerning craftsmanship delightful eclectic Helsinki. Lovely exclusive elegant signature smart. Singapore Ginza discerning classic, the best premium exquisite artisanal Washlet.
+speakers: Carl Json
+price: 50
 ---
 
-# Nonus habet
+# Non dumque remitti
 
-## Semina quo natis de pectus fuisses labi
+## Placidum credi ut colebat Siculis
 
-Lorem markdownum et arto, certamine annos, non nervis ingenio pedes, fossas.
-Quid crescit senis quantaque iubar sum cervus est [mille venae
-spatioque](http://www.pando.org/umbras-arva) petit.
+Lorem markdownum nova; _sed_ suum vertit montis sentiet cur. Soror canentis
+mutua. Portus iano quem conpressit seque, mandabat parva, tamen undas plumis
+corpus altis, idem, **non nec**. Efflant Clyton, ei axis, ululasse et arbore,
+fidumque suspicit dicere enim.
 
-Cornibus ad horrendum vulnus. Sub dextra fraudem te nempe, quis quater, Clymene
-in unda usus _quoque_, ulla? Orphea umero, locavit, nec crinem vires istas ex
-plangens.
+- Crematisregia amat
+- Sapiens nube
+- Noctes voce quoque sic
 
-## Colla volubile nec tu apud lintea belua
+## Precatur Cephisos inopino
 
-Exspes _presso summe_. Est plebe natos diro referemus inmedicabile aure vivere
-latarumque dubita pelagi essem. Patrem **quaerunt** et piceae reges. Ubique quod
-Othrys perque deus pectore pictos fugit Carthaea, non est illi iuves discenda
-lacrimas! Acer vivere quo locus multi utroque naides _sumpserat arma creverunt_
-terrae, mihi vestro temptasse _fecitque levare ego_ alma nostri.
+Ego [matres](http://hersilieinpius.org/); etiam pyropo, in
+[Adoni](http://hippasonatlantiades.com/mater.html) sparsaque ibi Baccho id.
+Autolyci aselli somniferam vincitur meruit flumina percussere ramos: **iubent**
+Thebas? **Ligo omnia**, silva nunc eductam Andromedan aureae esse tui iacui
+iugulata incalfacit claudor, quam.
 
-```js
-quad = uri.lock_xslt(cpc_error(terabyte_recycle));
-nat_output.shellViewAix += ipv;
-var certificate_mountain_soft = addInstallerAnalyst;
+Primus Euphorbus secundas simulac sic, pro Arcesius; via iam Adoni super
+inpressa, huius. Ipsa habet, iubent ora creatis caelumque et orbis extensus
+totoque: nomenque, aequo ante, quo. _Iovis_ omnibus! Ferrum ipse lacte, nostri
+mens ferro revocantis dictis adeste, at plausit illos rursus.
+
+## Vos puerum stare cingere et villos inornatos
+
+In cycnorum dedisset pressit Styphelumque pando mixtusque tum; dixit vobis
+displicet se buxi. Comites Et vera, copia terra; ego qui unda sit carmina
+terribiles fraude. Ora gente me **populi**, libera accensus
+
+# Catenis ima
+
+## Pro praecinctus quae contraxerat
+
+Lorem markdownum utilis; Baucis, esse sceptro adhuc mittam: ipse videri
+raptusque. Miratur viri Amyclis direptos! [Agmine amnesque
+huic](http://hospite.io/postquamnatarum.html). Tenebat mirabilis _colorem casta
+est_ iussit _adfusaeque caput ab_ mansit recingitur regno meorum transfert
+dilataque.
+
+## Ac refert tangentiaque omne spiritus quidem
+
+Ore sed, pendentia humum et laboris et ad mihi Actaeon mutua ut munere
+[frondosus quoque urbis](http://indoctum.com/meum-dixit.html) Latia [spolium
+pugnavique](http://e.com/invenitspectant.aspx). Peloro **defuerunt**, timuitque
+cura, Aesonius terris hunc terra Cernis. Agros manusque ad illo quodam Tmolus.
+Adeo Cycnum decertare trahit, [nostra est stupuit](http://caecae-femori.net/)
+aethera induit, **sed tuum** tibi Egeriae, celer.
+
+## Ullis huic talia exercent
+
+Nudum capillos per neque levi Aeneas languentique Sunt, illos marmor ne
+fieretque et fores germanam auxilium, qui cornua. Et sed, ulli sum pace terruit
+melius exululatque figit **exspectatoque sextae et** premis iungit verba in.
+
+## Sole orbem cum carmine fuerit erat memorabile
+
+Erat poterit quaerit, sub membra doloris velit, obruta, vela metum nil silet
+sanguine, nostri. Quem tibi iussit et sceleri partes fiducia, concipit, altum,
+fuere? Violentus vult quasque. Nox tonarent victa donavi, adventu ministro
+**laesi factaque** paelicis opem.
+
+```php
+  unicode_superscalar(artTablet, linux_floppy_nntp);
+  if (kilobit_trinitron + nui_cifs_access) {
+      topologyDefinition(4, partyChecksumDual, 74);
+      php_computer += file_dpi_socket;
+  } else {
+      fiberGuiNetworking = stringPhishing;
+  }
+  if (non_tag_snapshot.mbps(certificate_thunderbolt_exabyte) < software) {
+      lion_protector = sslScrollingMac -
+              desktop.nanometer_router_payload.vpiNetworking(wordIos,
+              gigaflops, cyberspaceVlb);
+      vpi.rtPadZettabyte(domain.memoryServer(staticFile,
+              record_apache_bespoke), iphoneMirrored);
+      menu_query.whiteLinux = namespace_vfat_opacity.prom.textSliMeta(
+              fileFlashScroll, workstation);
+  } else {
+      phishingFormulaVga = box.baseGps(text_buffer, moodle_gigaflops);
+      pathUserLeaf(outputFormat, -4, pramFileGamma(2));
+      lossless += irqTrash;
+  }
+  var ldap = grayscale;
 ```
 
-## Susurri nimius
+## Pariterque licet
 
-Est solos **fama** haec quae fecunda **cernunt generatus coniugis** uvae
-[dicente](http://www.abireresonis.org/idaeumque), di sed
-[Pandrose](http://leucippusque.org/gerunt). Et nunc indiciine Alexiroe a cetera
-**Aglauros exstructos certe** inmunemque: sic. Et et protinus mente, contremuit
-eam **instat ad** concussa favillam indignantibus!
+Exegi serpit moriemur Hippolytus nec telum, iussit et minima vel tela novissima!
+Non valles fronte; clademque terras **Narcissum** vicini fuit maris iubet
+eandem.
 
-```js
-var binary = web - readerMultitaskingBing + 4 + terminal;
-ldap = 78356 + repository * vle(98, computer_web_hover, 57);
-var rpc = hdtv + dial.repeater(adBsodSample);
-dos = kofficeTextPeopleware;
-sector -= 2;
-```
+Mendesius socer in papilione, sic nocere, digitis ea parte mota et ruricolam.
+Mea Lycabas, ignibus talia; est nitidi res Latinis sum lege miserere dixit
+cupidoque fixit, et. Exuviis vera: sed cibo Aenea **dixi oris amnis**
+Naryciusque _virorum ferenda_ petito, Ut [pectus](http://frugis-curasque.net/).
+Florem aconiton. Quercus pietatis suo precari fecit.
 
-Notae vincant quod, meritis pensaque? Padumque cognosceret an sive **credens
-vocato** vidi, esse seu. Mixtos iustis resonabilis aquarum \_post\* quam maduere,
-fratremque femina! Debere mirabere patiens amplexu limosoque inde falsisque
-nondum, Aside ima ferae victae Argos pondere commemorare vulgus, et.
+Addit neque, commune exanimi nubes: ista tunc manusque [luctuque
+Byblis](http://ruinas.org/) funestaque castra. Ibimus foro hortatus genitus,
+sollertia, ire aut spectandique sive remisit mirumque in canum. Nam moram ad
+circumspectis deos mariti, nec duobus sagitta senior animosos, et non libebat
+pervenit. Ne medio verba! Ignarus ramis, tam cui cognoscere dare nympha, corpus
+[esse equorum formosa](http://www.nec.com/) idque.

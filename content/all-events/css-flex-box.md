@@ -1,4 +1,5 @@
 ---
+uuid: a721ce21-8578-4b58-9684-c137c8cbaad4
 title: CSS GRID
 dateStart: 2020-04-02
 dateEnd: 2020-04-10
@@ -6,8 +7,8 @@ location: online
 speakers: Jessica Loop
 price: 50
 image: /grid.jpg
-uuid: d0dcf16e-3234-4176-a3a2-a84a7bb48ef2
-description: Has no ponderum reprehendunt, te pri omnis veritus, dicant oblique
+description:
+  Has no ponderum reprehendunt, te pri omnis veritus, dicant oblique
   usu ad. Eu repudiare interpretaris signiferumque nam. Usu te case tota
   tritani. Has ex exerci vituperata, id usu hinc delectus disputando, pri suas
   ipsum et. Esse vituperatoribus eu vel, cu mea nisl tibique corpora. Cu quo

@@ -26,10 +26,10 @@ export default {
   },
   computed: {
     getCurentComponent() {
-      if (this.$colorMode.value === "dark") {
-        return AppIconMoon;
-      } else {
+      if (this.$colorMode.value === "light") {
         return AppIconSun;
+      } else {
+        return AppIconMoon;
       }
     },
   },

@@ -43,34 +43,32 @@
           class="flex items-center space-x-6 sm:space-x-0 sm:justify-between md:justify-start"
         >
           <figcaption
-            class="flex-grow flex flex-col space-y-3 items-start sm:flex-grow-0 md:ml-6 xl:space-y-5"
+            class="flex-grow flex flex-col space-y-3 items-start sm:flex-grow-0 md:ml-6 lg:ml-8 xl:space-y-4"
           >
-            <h2
-              class="text-3xl font-semibold lg:text-4xl xl:text-5xl"
-            >
+            <h2 class="text-3xl font-semibold lg:text-4xl">
               {{ speaker.name }}
             </h2>
             <p class="flex space-x-4">
               <a href="#"
-                ><app-icon-git-hub class="w-6 h-6 lg:w-8 lg:h-8"
+                ><app-icon-git-hub class="w-6 h-6 lg:w-7 lg:h-7"
               /></a>
               <a href="#"
-                ><app-icon-linkedin class="w-6 h-6 lg:w-8 lg:h-8"
+                ><app-icon-linkedin class="w-6 h-6 lg:w-7 lg:h-7"
               /></a>
             </p>
-            <h4 class="text-sm text-gray-500 lg:text-base xl:text-xl">
+            <h4
+              class="text-sm text-gray-600 dark:text-gray-300 lg:text-base xl:text-lg"
+            >
               {{ speaker.company }}
             </h4>
           </figcaption>
           <img
             :src="`/speakers/${speaker.image}`"
             :alt="speaker.name"
-            class="w-28 h-28 md:w-24 md:h-24 xl:w-32 xl:h-32 2xl:w-36 2xl:h-36 rounded-full object-cover object-center md:order-first"
+            class="w-28 h-28 md:w-24 md:h-24 xl:w-32 xl:h-32 rounded-full object-cover object-center md:order-first"
           />
         </figure>
-        <p
-          class="leading-snug w-full mt-8 sm:mt-6 md:text-base lg:text-xl"
-        >
+        <p class="leading-snug w-full mt-8 sm:mt-6 md:text-base">
           {{ speaker.about }}
         </p>
       </section>
