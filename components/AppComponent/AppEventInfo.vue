@@ -1,17 +1,11 @@
 <template>
   <section class="">
     <header class="py-8 md:flex">
-      <h2
+      <app-show-date
+        :date-start="event.dateStart"
+        :date-end="event.dateEnd"
         class="font-semibold italic text-right sm:text-lg md:text-left md:order-last md:ml-auto lg:text-xl xl:text-2xl"
-      >
-        <span
-          >{{ getDay(event.dateStart) }}
-          -
-          {{ getDay(event.dateEnd) }}</span
-        >
-        <span>{{ getMonth(event.dateStart) }}</span>
-        <span>{{ getYear(event.dateStart) }}</span>
-      </h2>
+      />
       <h2
         class="text-3xl font-semibold sm:text-4xl mt-4 md:text-5xl xl:flex-grow xl:text-6xl"
       >
@@ -58,7 +52,7 @@
         ></image>
       </svg>
       <figcaption
-        class="mt-6 sm:mt-10 md:order-first md:mt-0 md:w-1/2 md:pr-5 md:flex md:flex-col xl:flex-grow"
+        class="mt-6 sm:mt-10 md:order-first md:mt-0 md:w-1/2 md:pr-5 md:flex md:flex-col xl:flex-grow xl:justify-between"
       >
         <h3 class="text-lg md:mt-8">
           <app-link-speaker

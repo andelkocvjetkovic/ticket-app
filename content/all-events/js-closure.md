@@ -1,13 +1,13 @@
 ---
 uuid: 86aef0b1-6e7b-4790-aea3-cc414fa2b17e
-title: JavaScript pattern
-dateStart: 2020-06-02
-dateEnd: 2020-06-05
-image: js-patterns.jpg
+title: JavaScript closure
+dateStart: 2020-03-02
+dateEnd: 2020-03-07
+image: js-closure.jpg
 location: online
-description: Melbourne izakaya tote bag, remarkable Tsutaya pintxos intricate St Moritz concierge extraordinary Toto Asia-Pacific Beams uniforms Boeing 787. Sharp carefully curated soft power, the highest quality handsome iconic discerning craftsmanship delightful eclectic Helsinki. Lovely exclusive elegant signature smart. Singapore Ginza discerning classic, the best premium exquisite artisanal Washlet.
-speakers: Carl Json
-price: 50
+description: Crura loco solvit petit laniatque erat est venerit admotis hae verum. Decent aut sine pressa olivae creberrima dicentem rependis. Solum officiumque erat ponat. Pia augebat caerula, negat, inposito,tua si metuens, o Haemoniam procul vocalibus. Etcurrat articipes victrix mersisque lateri.
+speakers: David Break
+price: 60
 ---
 
 # Non dumque remitti

@@ -116,7 +116,7 @@ export default {
   content: {
     markdown: {
       prism: {
-        theme: "",
+        theme: "prism-themes/themes/prism-hopscotch.css",
       },
     },
   },

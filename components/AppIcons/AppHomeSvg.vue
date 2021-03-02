@@ -8,6 +8,7 @@
       viewBox="0 0 694 1050"
       xml:space="preserve"
       role="presentation"
+      preserveAspectRatio="none"
       aria-labelledby="bgHome"
     >
       <title id="bgHome">Code all over the place</title>
