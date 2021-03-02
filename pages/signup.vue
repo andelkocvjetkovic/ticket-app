@@ -59,11 +59,11 @@ export default {
           email,
           password
         );
+        this.$router.replace("/dashboard");
       } catch (e) {
         this.error = e.message;
       } finally {
         this.loading = false;
-        this.$router.replace("/dashboard");
       }
     },
   },
