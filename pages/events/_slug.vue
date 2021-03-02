@@ -25,7 +25,7 @@
           :alt="event.slug"
         />
       </div>
-      <figcaption class="mt-6">
+      <figcaption class="mt-6 lg:mt-10">
         <span class="text-lg md:text-xl lg:text-2xl text-app-orange">
           <app-link-speaker :speaker="event.speakers" />
         </span>
